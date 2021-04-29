@@ -1,4 +1,4 @@
-/* Colors
+/* Colors */
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 :root{
   --color-main-in-header            : rgba(159, 96, 184, 0.8);
@@ -30,7 +30,7 @@
   --title-special-rgba-decr-rgba-i : rgba(159, 96, 184, 0.9);
   --title-special-rgba-decr-rgba-ii: rgba(159, 96, 184, 0.8);
 } 
-*/
+
 
 /* custom for challenges */
 .init-content{
@@ -46,40 +46,24 @@
     margin-bottom: 10px;
 }
 
+.custom-btn
+{
+  width: 100%;
+  border-color:var(--main-stuntbusiness-color);
+  margin: 5px 5px 5px 1px;
+}
+
+.reduced-width-btn{
+    width: 20% !important;
+    border-color:var(--main-stuntbusiness-color);
+    margin: 5px 5px 5px 1px;
+    background-color:var(--main-stuntbusiness-color-decr-rgba-i) !important;
+}
+
 
 
 /* main-stunt-business.css */
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-:root{
-  --color-main-in-header            : rgba(159, 96, 184, 0.8);
-  --color-main-in-header-decreased-rgba:  rgba(159, 96, 184, 0.4);
-  --color-border-form               : rgba(159, 96, 184, 0.8);
-  --color-border-form-decreased-rgba: rgba(159, 96, 184, 0.5);
-  --font-family-uncommon   : 'Arvo';
-  --font-family-common     : 'Nunito';
-  --font-family-special-txt: 'Cardo', serif;
-  --footer-bg-color                 : rgb(77,77,77); 
-  --main-stuntbusiness-color                :rgba(126, 89, 212, 1);
-  --main-stuntbusiness-color-decr-rgba-i    :rgba(126, 89, 212, 0.9);
-  --main-stuntbusiness-color-decr-rgba-ii   :rgba(126, 89, 212, 0.8);
-  --main-stuntbusiness-color-decr-rgba-iii  :rgba(126, 89, 212, 0.7);
-  --main-stuntbusiness-color-decr-rgba-iv   :rgba(126, 89, 212, 0.6);
-  --main-stuntbusiness-color-decr-rgba-v    :rgba(126, 89, 212, 0.5);
-  --main-stuntbusiness-color-decr-rgba-vi   :rgba(126, 89, 212, 0.4);
-  --main-stuntbusiness-color-decr-rgba-vii  :rgba(126, 89, 212, 0.3);
-  --main-stuntbusiness-color-decr-rgba-viii :rgba(126, 89, 212, 0.2);
-  --main-stuntbusiness-color-decr-rgba-ix   :rgba(126, 89, 212, 0.1);
-  --navbar-display-border-color               :  rgba(159, 96, 184, 1);
-  --navbar-display-border-color-decr-rgba-i   :  rgba(159, 96, 184, 0.9);
-  --navbar-item-a-bg-color                    :  rgba(159, 96, 184, 1);
-  --navbar-item-a-bg-color-decr-i             :  rgba(159, 96, 184, 0.9);
-  --navbar-item-a-bg-color-decr-ii            :  rgba(159, 96, 184, 0.8);
-  --title-color       :rgba(126, 89, 212, 1);
-  --title-border-color:rgba(126, 89, 212, 1);
-  --title-special-color            : rgba(159, 96, 184, 1);
-  --title-special-rgba-decr-rgba-i : rgba(159, 96, 184, 0.9);
-  --title-special-rgba-decr-rgba-ii: rgba(159, 96, 184, 0.8);
-} 
+
  /******* BODY TAG *******/
  body{
     font-family: var(--font-family-common);
@@ -227,12 +211,7 @@
     0px 0px 8px var(--color-border-form-decreased-rgba) !important;
 }
 
-.custom-btn
-{
-  width: 100%;
-  border-color:var(--main-stuntbusiness-color);
-  margin: 5px 5px 5px 1px;
-}
+
 
 .content-box
 {

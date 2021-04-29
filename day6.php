@@ -7,7 +7,7 @@
 // 30 Days - Q&A PHP Basic
 // Day 5 : 
 // Day 5 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Arrays
+// Subject :  Data Type
 // ----------------------------------------------------
 //  what would be the output of this program ?
 

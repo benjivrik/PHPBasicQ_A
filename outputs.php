@@ -117,7 +117,7 @@
 
         </div>
         <hr>
-        <h5> Day2-Output </h5>
+        <h5> Day 2 - Output </h5>
          <p> <b>Data Type</b></p>
         <div class="output">
             <?php
@@ -125,7 +125,55 @@
             ?>
         </div>
         <hr>
-        
+        <h5> Day3 - Output </h5>
+        <p> <b> Functions. </b></p>
+        <div class="output">
+            <?php
+                require('./day3.php');
+            ?>
+        </div>
+        <hr>
+        <h5> Day4 - Output </h5>
+         <p> <b> Challenge I - Process input sent from webpage form. </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="./day4.php">
+                <label for="user-input">Enter your number : </label>
+                <input type="number" 
+                       name="usr-input"
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number" 
+                       id="usr-input" value="0" required>
+                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <h5> Day5 - Output </h5>
+        <p> <b> Challenge I - Process input sent from webpage form. </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="/action_page.php">
+                <label for="user-input">Enter your number : </label>
+                <input type="number" 
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number" 
+                       id="usr-input" value="0" required>
+                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
+            </form>
+        </div>
+        <hr>
+        <h5> Day6 - Output </h5>
+        <p> <b> Challenge I - Process input sent from webpage form. </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="/action_page.php">
+                <label for="user-input">Enter your number : </label>
+                <input type="number" 
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number" 
+                       id="usr-input" value="0" required>
+                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
+            </form>
+        </div>
+        <hr>
+
       </div>
     </div>
   </div>
