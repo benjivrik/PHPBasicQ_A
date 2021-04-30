@@ -5,13 +5,9 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A PHP Basic
-// Day 6 : 
-// Day 6 | IG : https://www.instagram.com/benjivrik/
-// Subject :  Loops
+// Day 9 : 
+// Day 9 | IG : https://www.instagram.com/benjivrik/
+// Subject :  
 // ----------------------------------------------------
 //  what would be the output of this program ?
-
-
-
-
 ?>

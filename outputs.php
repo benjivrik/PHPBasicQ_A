@@ -96,7 +96,7 @@
         <h4 class="pt-3"><b> 30 Days Basic PHP Q&A Challenge </b></h4>
         <br>
         <div>
-            → Answers for the PHP Q&A started from the community member instagram : <br>
+            → Answers for the PHP Q&A started by the community member instagram : <br>
             <a href="https://www.instagram.com/benjivrik" target="_new">
                 <span class="fa-stack fa-lg icon-instagram">
                     <i class="fa fa-square fa-stack-2x"></i>
@@ -117,7 +117,7 @@
 
         </div>
         <hr>
-        <h5> Day 2 - Output </h5>
+        <h5 id="day2"> Day 2 - Output </h5>
          <p> <b>Data Type</b></p>
         <div class="output">
             <?php
@@ -125,7 +125,7 @@
             ?>
         </div>
         <hr>
-        <h5> Day3 - Output </h5>
+        <h5 id="day3"> Day3 - Output </h5>
         <p> <b> Functions. </b></p>
         <div class="output">
             <?php
@@ -133,7 +133,7 @@
             ?>
         </div>
         <hr>
-        <h5> Day4 - Output </h5>
+        <h5 id="day4"> Day4 - Output </h5>
          <p> <b> Challenge I - Process input sent from webpage form. </b></p>
         <div class="output">
             <form class="form-inline" method="POST" action="./day4.php">
@@ -147,20 +147,15 @@
             </form>
         </div>
         <hr>
-        <h5> Day5 - Output </h5>
-        <p> <b> Challenge I - Process input sent from webpage form. </b></p>
+        <h5 id="day5"> Day5 - Output </h5>
+        <p> <b> Arrays. </b></p>
         <div class="output">
-            <form class="form-inline" method="POST" action="/action_page.php">
-                <label for="user-input">Enter your number : </label>
-                <input type="number" 
-                       class="ml-2 form-control" 
-                       placeholder="Enter your number" 
-                       id="usr-input" value="0" required>
-                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
-            </form>
+            <?php
+                require('./day5.php');
+            ?>
         </div>
         <hr>
-        <h5> Day6 - Output </h5>
+        <h5 id="day6"> Day6 - Output </h5>
         <p> <b> Challenge I - Process input sent from webpage form. </b></p>
         <div class="output">
             <form class="form-inline" method="POST" action="/action_page.php">
