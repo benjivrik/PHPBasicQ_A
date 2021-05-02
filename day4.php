@@ -22,6 +22,7 @@
 
  // collect the user input
 $user_input = $_POST["usr-input"];
+$user_input = htmlspecialchars($user_input);
 
 
 // function the return the double of the parameter

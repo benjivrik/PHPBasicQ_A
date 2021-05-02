@@ -156,16 +156,123 @@
         </div>
         <hr>
         <h5 id="day6"> Day6 - Output </h5>
-        <p> <b> Challenge I - Process input sent from webpage form. </b></p>
+        <p> <b> Loops. </b></p>
         <div class="output">
-            <form class="form-inline" method="POST" action="/action_page.php">
+            <?php
+                require('./day6.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day7"> Day7 - Output </h5>
+        <p> <b> Conditions and booleans. </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="./day7.php">
                 <label for="user-input">Enter your number : </label>
                 <input type="number" 
+                       name="usr-input"
                        class="ml-2 form-control" 
                        placeholder="Enter your number" 
                        id="usr-input" value="0" required>
                 <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
             </form>
+        </div>
+        <hr>
+        <h5 id="day8"> Day8 - Output </h5>
+        <p> <b> Challenge II - Basic Calculator </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="./day8.php">
+                <label for="user-input">Enter your operands and your operation : </label>
+                <input type="number" 
+                       name="oper1"
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number" 
+                       id="usr-input" value="0" required>
+                <select name = "op" 
+                        class="ml-2 form-control"
+                       id="operations">
+                    <option value="+" disabled>+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="number" 
+                       name="oper2"
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number" 
+                       id="usr-input" value="0" required>
+                <button type="submit"  
+                        class="ml-2 custom-btn btn btn-primary" 
+                        style="width: 15%;">Calculate</button>
+            </form>
+        </div>
+        <hr>
+        <h5 id="day9"> Day9 - Output </h5>
+        <p> <b> Regular Expressions (regEx) </b></p>
+        <div class="output">
+            <div class="m-1">
+                <br> 
+                <div>
+                  <span class="mb-2"> 
+                    <b> Parse the following text, find the number of appearance of a word or a letter and replace it with REPLACED </b>  
+                  </span>
+                </div>
+                <br>
+                <pre>
+                    At Stunt, we believe that our services must be rendered upon 
+                    three important pillars: customization, expertise, and transparency. 
+                    We will carefully listen to your needs and provide relevant comments 
+                    and advice as to what can be done to make your product the best it can be. 
+                    Our partnerships with other professionals ensure that we produce the best possible outcome. 
+                    Furthermore, we will always 
+                    let you know how we intend to proceed with the programming of your product 
+                    and include you in the process.
+                </pre>
+            </div>
+           <form class="form-inline" method="POST" action="./day9.php">
+                <div class="form-group">
+                    <input class="form-control" 
+                           required="required" 
+                           placeholder="word to look for" 
+                           name="word" type="text">
+                </div>
+                <button type="submit"  
+                        class="ml-2 custom-btn btn btn-primary" 
+                        style="width: 15%;">Search and Replace</button>
+           </form>
+           <hr>
+           <div>
+           </div>
+        </div>
+        <hr>
+        <h5 id="day10"> Day10 - Output </h5>
+        <p> <b> Challenge III - Form Validation </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="./day10.php">
+            <div class="form-group">
+                <input class="custom-form form-control" 
+                       required="required" 
+                       placeholder="Name" 
+                       name="name" type="text">
+            </div>
+            <div class="form-group">
+                <input class="custom-form form-control" 
+                       required="required" 
+                       placeholder="XYZ followed by 10 number" 
+                       name="phone_number" type="text">
+            </div>
+
+            <div class="form-group">
+                <input class="custom-form form-control" 
+                       required="required" 
+                       placeholder="Email Address" 
+                       name="email" type="text">
+            </div>
+
+            <button type="submit"  
+                    class="ml-2 custom-btn btn btn-primary" 
+                    style="width: 15%;">Submit</button>
+           </form>
+           
         </div>
         <hr>
 
