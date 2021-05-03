@@ -275,10 +275,18 @@
            
         </div>
         <hr>
+        <h5 id="day10"> Day11 - Output </h5>
+        <p> <b> File  Handling  </b></p>
+        <div class="output">
+            <?php
+                require('./day11.php');
+            ?>
+        </div>
+        <hr>
 
       </div>
     </div>
-  </div>
+  </div> 
 </div>
 
 <footer class="page-footer">
