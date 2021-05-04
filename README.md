@@ -2,62 +2,62 @@ PHP 30 Days Basic Q_A
 
 Answers for the PHP Q&A started from my instagram : https://www.instagram.com/benjivrik/
 
-Day 1 : Introduction | -
+Day 1 : Introduction 
 
-Day 2 : Data Type. | 
+Day 2 : Data Type
 
-Day 3 : Challenge 1
+Day 3 : Functions
 
-Day 4 : list 
+Day 4 : Challenge I - Process input sent from webpage form. 
 
-Day 5 : reusability : Parameterize your code
+Day 5 : Arrays
 
-Day 6 : conditions and boolean
+Day 6 : Loops
 
-Day 7 : Challenge 2 | Basic Calculator |
+Day 7 : Conditions and booleans
 
-Day 8 : modules < random 
+Day 8 : Challenge II - Basic Calculator
 
-Day 9 : Challenge 3 
+Day 9 : Regular Expressions (regEx) 
 
-Day 10: Challenge 4 
+Day 10: Challenge III - Form Validation
 
-Day 11: Challenge 5
+Day 11: File Handling
 
-Day 12: Dictionaries 
+Day 12: Working with JSON File 
 
-Day 13 : Time and Calendar
+Day 13: Object Oriented Programming (OOP)
 
-Day 14: Module - Matplotlib.pyplot
+Day 14: OOP - Inheritance
 
-Day 15: File Handling
+Day 15: Challenge IV - Basic Calculator
 
-Day 16: Web scraping with Python
+Day 16:  
 
-Day 17: Challenge 6 | Writing in a File
+Day 17: 
 
-Day 18: Challenge 7 | Read, Copy and Print
+Day 18: 
 
-Day 19: Challenge 8 | Data processing - Read and Plot
+Day 19: 
 
-Day 20: Object Oriented Programming
+Day 20: 
 
-Day 21: Inheritance
+Day 21: 
 
-Day 22: Challenge 9 | basic calculator using OOP
+Day 22: 
 
-Day 23: Challenge 10 | mini store using OOP
+Day 23: 
 
-Day 24: Challenge 11 | File manager using OOP
+Day 24: 
 
-Day 25: Challenge 12 | Create customer using OOP
+Day 25:
 
-Day 26: Challenge 13 | Create a product with all the property and prices; Assign the product to a name and price
+Day 26: 
 
-Day 27: Challenge 14 | Create 5 products object and create two customers. Assign the bugdet and let them know if they have enough money to buy them
+Day 27: 
 
-Day 28: tkinter simple windows with button
+Day 28: 
 
-Day 29: Challenge 15 | tkinter counter
+Day 29: 
 
-Day 30 : Challenge 16 | tkinter get fields values and write them inside a text file.
+Day 30: 
