@@ -275,11 +275,96 @@
            
         </div>
         <hr>
-        <h5 id="day10"> Day11 - Output </h5>
+        <h5 id="day11"> Day11 - Output </h5>
         <p> <b> File  Handling  </b></p>
         <div class="output">
             <?php
                 require('./day11.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day12"> Day12 - Output </h5>
+        <p> <b> Working with JSON File  </b></p>
+        <div class="output">
+            <?php
+                require('./day12.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day13"> Day13 - Output </h5>
+        <p><b> Object Oriented Programming (OOP)</b></p>
+        <div class="output">
+            <?php
+                require('./day13.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day14"> Day14 - Output </h5>
+        <p> <b> OOP - Inheritance  </b></p>
+        <div class="output">
+            <?php
+                require('./day14.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day15"> Day15 - Output </h5>
+        <p> <b> Challenge IV - Basic Calculator with OOP </b></p>
+        <div class="output">
+            <form class="form-inline" method="POST" action="./day15.php">
+                <label for="user-input">Enter your operands a and b : </label>
+                <input type="number" 
+                       name="oper1"
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number (a)" 
+                       id="usr-input" value="0" required>
+                <input type="number" 
+                       name="oper2"
+                       class="ml-2 form-control" 
+                       placeholder="Enter your number (b)" 
+                       id="usr-input" value="0" required>
+                <button type="submit"  
+                        class="ml-2 custom-btn btn btn-primary" 
+                        style="width: 15%;">Calculate</button>
+            </form>
+        </div>
+        <hr>
+        <h5 id="day16"> Day16 - Output </h5>
+        <p> <b> O </b></p>
+        <div class="output">
+            <?php
+                require('./day16.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day17"> Day17 - Output </h5>
+        <p> <b> O </b></p>
+        <div class="output">
+            <?php
+                require('./day17.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day18"> Day18 - Output </h5>
+        <p> <b> O </b></p>
+        <div class="output">
+            <?php
+                require('./day18.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day19"> Day19 - Output </h5>
+        <p> <b> O </b></p>
+        <div class="output">
+            <?php
+                require('./day19.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day20"> Day20 - Output </h5>
+        <p> <b> O </b></p>
+        <div class="output">
+            <?php
+                require('./day20.php');
             ?>
         </div>
         <hr>

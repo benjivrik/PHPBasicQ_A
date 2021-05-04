@@ -5,9 +5,9 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A PHP Basic
-// Day 7 : 
+// Day 7 : Conditions and booleans
 // Day 7 | IG : https://www.instagram.com/benjivrik/
-// Subject :  conditions and booleans
+// Subject :  Conditions and booleans
 // ----------------------------------------------------
 //  what would be the output of this program ?
 

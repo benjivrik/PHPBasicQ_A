@@ -5,7 +5,7 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A PHP Basic
-// Day 5 : 
+// Day 5 : Arrays
 // Day 5 | IG : https://www.instagram.com/benjivrik/
 // Subject :  Arrays
 // ----------------------------------------------------

@@ -5,7 +5,7 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A PHP Basic
-// Day 4 : 
+// Day 4 : Functions
 // Day 4 | IG : https://www.instagram.com/benjivrik/
 // Subject :  Functions
 // ----------------------------------------------------
