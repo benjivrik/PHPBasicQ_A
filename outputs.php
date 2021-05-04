@@ -329,7 +329,7 @@
         </div>
         <hr>
         <h5 id="day16"> Day16 - Output </h5>
-        <p> <b> Password Generator </b></p>
+        <p> <b> Challenge V - Password Generator </b></p>
         <div class="output">
             <?php
                 require('./day16.php');
@@ -337,7 +337,7 @@
         </div>
         <hr>
         <h5 id="day17"> Day17 - Output </h5>
-        <p> <b> O </b></p>
+        <p> <b> Abstract Classes </b></p>
         <div class="output">
             <?php
                 require('./day17.php');
@@ -345,7 +345,7 @@
         </div>
         <hr>
         <h5 id="day18"> Day18 - Output </h5>
-        <p> <b> O </b></p>
+        <p> <b> Interfaces </b></p>
         <div class="output">
             <?php
                 require('./day18.php');
@@ -353,7 +353,7 @@
         </div>
         <hr>
         <h5 id="day19"> Day19 - Output </h5>
-        <p> <b> O </b></p>
+        <p> <b>Traits </b></p>
         <div class="output">
             <?php
                 require('./day19.php');
@@ -361,7 +361,7 @@
         </div>
         <hr>
         <h5 id="day20"> Day20 - Output </h5>
-        <p> <b> O </b></p>
+        <p> <b> Challenge VI - </b></p>
         <div class="output">
             <?php
                 require('./day20.php');
