@@ -329,7 +329,7 @@
         </div>
         <hr>
         <h5 id="day16"> Day16 - Output </h5>
-        <p> <b> O </b></p>
+        <p> <b> Password Generator </b></p>
         <div class="output">
             <?php
                 require('./day16.php');
