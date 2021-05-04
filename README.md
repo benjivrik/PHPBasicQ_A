@@ -32,13 +32,13 @@ Day 14: OOP - Inheritance
 
 Day 15: Challenge IV - Basic Calculator
 
-Day 16:  
+Day 16: Challenge V - Password Generator
 
-Day 17: 
+Day 17: Abstract Classes
 
-Day 18: 
+Day 18: Interfaces
 
-Day 19: 
+Day 19: Traits
 
 Day 20: 
 
