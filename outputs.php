@@ -361,10 +361,102 @@
         </div>
         <hr>
         <h5 id="day20"> Day20 - Output </h5>
-        <p> <b> Challenge VI - </b></p>
+        <p> <b> Challenge VI - User </b></p>
         <div class="output">
+            <div>
+                <span class="mb-2"> 
+                <b> Displaying the data initialized from the script </b>  
+                </span>
+            </div>
             <?php
                 require('./day20.php');
+
+                foreach($users as $user){
+                    $profile   = $user->getProfilePath();
+                    $firstname = $user->getFirstName();
+                    $lastname  = $user->getLastName();
+                    $user_id   = $user->getUserID();
+
+                    // not the optimal way to organize your css
+                    // and not the optimal way for displaying the user information
+                    echo "<div style='margin: 10px; padding: 5px; display:flex; flex-direction:row'>
+                                <div class='w-25'>
+                                    <span>→ First-Name : $firstname </span> <br>
+                                    <span>→ Last-Name : $lastname   </span> <br>
+                                    <span>→ User ID :  $user_id     </span> <br>
+                                </div>
+                                <div class='pl-2' >
+                                    <div class='mb-1 w-100'><b>Picture :</b></div>
+                                    <img src='$profile' style='border-radius:80%; max-width:75px;'>
+                                </div>
+                                
+                          </div><hr>";
+                }
+            ?>
+        </div>
+        <hr>
+        <h5 id="day21"> Day21 - Output </h5>
+        <p><b> Challenge VII - Item </b></p>
+        <div class="output">
+            <div>
+                <span class="mb-2"> 
+                <b> Displaying the data initialized from the script </b>  
+                </span>
+            </div>
+            <?php
+                require('./day21.php');
+
+                foreach($items as $item){
+                    $profile   = $item->getProfilePath();
+                    $item_name = $item->get_name();
+                    $item_category = $item->get_category();
+
+                    // add class css for the blox
+                    echo "<div style='margin: 10px; padding: 5px; display:flex; flex-direction:row'>
+                                <div class='w-25'>
+                                    <span>→ First-Name : $firstname </span> <br>
+                                    <span>→ Last-Name : $lastname   </span> <br>
+                                    <span>→ User ID :  $user_id     </span> <br>
+                                </div>
+                                <div class='pl-2' >
+                                    <div class='mb-1 w-100'><b>Picture :</b></div>
+                                    <img src='$profile' style='border-radius:80%; max-width:75px;'>
+                                </div>
+                                
+                          </div><hr>";
+                }
+            ?>
+        </div>
+        <hr>
+        <h5 id="day22"> Day22 - Output </h5>
+        <p> <b>Traits </b></p>
+        <div class="output">
+            <?php
+                require('./day22.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day23"> Day23 - Output </h5>
+        <p> <b>Traits </b></p>
+        <div class="output">
+            <?php
+                require('./day23.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day24"> Day24 - Output </h5>
+        <p> <b>Traits </b></p>
+        <div class="output">
+            <?php
+                require('./day24.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day25"> Day25 - Output </h5>
+        <p> <b>Traits </b></p>
+        <div class="output">
+            <?php
+                require('./day25.php');
             ?>
         </div>
         <hr>
