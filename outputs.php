@@ -13,7 +13,6 @@
       <link rel="apple-touch-icon" sizes="180x180" href="https://www.stuntbusiness.ca/img/stunt-business-logo/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="https://www.stuntbusiness.ca/img/stunt-business-logo/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="https://www.stuntbusiness.ca/img/stunt-business-logo/favicon-16x16.png">
-      <link rel="manifest"      href="https://www.stuntbusiness.ca/img/stunt-business-logo/site.webmanifest">
       <link rel="mask-icon"     href="https://www.stuntbusiness.ca/img/stunt-business-logo/safari-pinned-tab.svg" color="#5bbad5">
       <link rel="shortcut icon" href="https://www.stuntbusiness.ca/img/stunt-business-logo/favicon.ico">
       <meta name="msapplication-TileColor" content="#603cba">
@@ -25,7 +24,6 @@
       
       <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="./outputs_util/all_stuntb.css">
-      <link rel="stylesheet" type="text/css" href="https://www.stuntbusiness.ca/css/regular-pages/welcome-page.css">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -403,6 +401,7 @@
                 <b> Displaying the data initialized from the script </b>  
                 </span>
             </div>
+            <div class='row-container'>
             <?php
                 require('./day21.php');
 
@@ -410,31 +409,94 @@
                     $profile   = $item->getProfilePath();
                     $item_name = $item->get_name();
                     $item_category = $item->get_category();
+                    $item_price = $item -> get_price();
 
                     // add class css for the blox
-                    echo "<div style='margin: 10px; padding: 5px; display:flex; flex-direction:row'>
-                                <div class='w-25'>
-                                    <span>→ First-Name : $firstname </span> <br>
-                                    <span>→ Last-Name : $lastname   </span> <br>
-                                    <span>→ User ID :  $user_id     </span> <br>
-                                </div>
-                                <div class='pl-2' >
-                                    <div class='mb-1 w-100'><b>Picture :</b></div>
-                                    <img src='$profile' style='border-radius:80%; max-width:75px;'>
-                                </div>
-                                
-                          </div><hr>";
+                    echo "<div class='item-box' style='display:flex; flex-direction:column'>
+                            <div class='pl-2 w-100 text-center'>
+                                <img src='$profile' style='border-radius:80%; max-width:200px;'>
+                                <hr>
+                            </div>
+                            <div class='w-100'>
+                                <span>Name : $item_name </span><br>
+                                <span>Category : $item_category </span><br>
+                                <span>Price : $item_price CAD </span>
+                            </div>
+                        </div>  
+                         <hr>";
                 }
-            ?>
+             ?>
+            </div>
         </div>
         <hr>
         <h5 id="day22"> Day22 - Output </h5>
-        <p> <b>Traits </b></p>
+        <p> <b>Challenge VIII - Geometric shape classes </b></p>
         <div class="output">
             <?php
                 require('./day22.php');
             ?>
+            <div class="row-container">
+                <div class = "p-4">
+                    <h4> Circle </h4>
+                    <canvas id="circle" width="150" height="150"></canvas>
+                    <p>
+                        <span> Radius: <?php echo $circ->getRadius(); ?> </span> <br>
+                        <span> Perimeter: <?php echo $circ->perimeter(); ?> </span> <br>
+                        <span> Area: <?php echo $circ->area(); ?> </span> <br>
+                    </p>
+                </div>
+                <div class = "p-4">
+                    <h4> Square </h4>
+                    <canvas id="square" width="150" height="150"></canvas>
+                    <p>
+                        <span> Side: <?php echo $sq->getSide(); ?> </span> <br>
+                        <span> Perimeter: <?php echo $sq->perimeter(); ?> </span> <br>
+                        <span> Area: <?php echo $sq->area(); ?> </span> <br>
+                    </p>
+                </div>
+            </div>
+            
+
         </div>
+        <script>
+            // ref : https://www.w3resource.com/javascript-exercises/javascript-drawing-exercise-2.php
+            // ref : https://www.w3schools.com/tags/canvas_rect.asp
+            function draw_circle(radius)
+            {
+                var canvas = document.getElementById('circle');
+                if (canvas.getContext)
+                {
+                    var ctx = canvas.getContext('2d'); 
+                    var X = canvas.width / 2;
+                    var Y = canvas.height / 2;
+                    // var R = 45;
+                    ctx.beginPath();
+                    ctx.arc(X, Y, radius, 0, 2 * Math.PI, false);
+                    ctx.lineWidth = 3;
+                    ctx.strokeStyle = '#FF00FF';
+                    ctx.stroke();
+                }
+            }
+
+            function draw_square(square_side){
+                var canvas = document.getElementById("square");
+                if (canvas.getContext){
+                    var ctx = canvas.getContext("2d");
+                    var X = canvas.width / 4;
+                    var Y = canvas.height / 3;
+                    ctx.beginPath();
+                    ctx.rect(X, Y, square_side, square_side);
+                    ctx.lineWidth = 3;
+                    ctx.strokeStyle = '#FF00FF';
+                    ctx.stroke();
+                }
+                
+            }
+
+            draw_circle(<?php echo $circ->getRadius(); ?>);
+            draw_square(<?php echo $sq->getSide(); ?>)
+
+        </script>
         <hr>
         <h5 id="day23"> Day23 - Output </h5>
         <p> <b>Traits </b></p>
