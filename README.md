@@ -40,13 +40,13 @@ Day 18: Interfaces
 
 Day 19: Traits
 
-Day 20: 
+Day 20: Challenge VI - User
 
-Day 21: 
+Day 21: Challenge VII - Item
 
-Day 22: 
+Day 22: Challenge VIII - Geometric shape classes (Circle & Square)
 
-Day 23: 
+Day 23: Challenge VIII - File Manager
 
 Day 24: 
 

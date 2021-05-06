@@ -63,9 +63,9 @@ class Square implements Shape{
 }
 
 // initialize your circle
-$circ = new Circle(50);
+$circ = new Circle(rand(5,50));
 
 // initialize your square
-$sq = new Square(50);
+$sq = new Square(rand(5,50));
 
 ?>

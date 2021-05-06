@@ -494,12 +494,12 @@
             }
 
             draw_circle(<?php echo $circ->getRadius(); ?>);
-            draw_square(<?php echo $sq->getSide(); ?>)
+            draw_square(<?php echo $sq->getSide(); ?>);
 
         </script>
         <hr>
         <h5 id="day23"> Day23 - Output </h5>
-        <p> <b>Traits </b></p>
+        <p> <b> Challenge VIII - File Manager </b></p>
         <div class="output">
             <?php
                 require('./day23.php');
@@ -507,7 +507,7 @@
         </div>
         <hr>
         <h5 id="day24"> Day24 - Output </h5>
-        <p> <b>Traits </b></p>
+        <p> <b> PHP MySQL </b></p>
         <div class="output">
             <?php
                 require('./day24.php');
