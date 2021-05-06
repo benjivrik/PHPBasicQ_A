@@ -7,7 +7,7 @@
 // 30 Days - Q&A PHP Basic
 // Day 24 : PHP MySQL
 // Day 24 | IG : https://www.instagram.com/benjivrik/
-// Subject :  PHP MySQL
+// Subject :  PHP - MySQL
 // ----------------------------------------------------
 // What would be the output of this program ?
 
@@ -16,7 +16,7 @@
 // a database is used for storing related information categorically
 // more info : https://www.w3schools.com/php/php_mysql_intro.asp
 // For this Q&A, we work with basic SQL TABLE and maintly using the 
-// operations CREATE, INSERT, READ, UPDATE and DELETE 
+// operations CREATE, INSERT, READ and DELETE 
 
 // require('day20.php')
 
@@ -36,7 +36,7 @@ try {
   // ERRMODE_EXECEPTION : https://stackoverflow.com/questions/49959415/what-does-setattributepdoattr-errmode-pdoerrmode-exception-do-more-exactl
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  echo "<br><h5><b> Creating The 'users' table 
+  echo "<br><h5><b> Creating the 'users' table 
         if it does not already exist in the database 'phpqa'. </b></h5>";
 
   // create table if not exists
@@ -53,7 +53,7 @@ try {
 
   echo "<br><span>User table successfully created!</span><br>";
 
-  echo "<br><h5><b> Creating a new record in the database 'phpqa'. </b></h5>";
+  echo "<br><h5><b> Adding the records in the table 'users'. </b></h5>";
 
   $firstname = $user1->getFirstName();
   $lastname  = $user1->getLastName();

@@ -46,15 +46,15 @@ Day 21: Challenge VII - Item
 
 Day 22: Challenge VIII - Geometric shape classes (Circle & Square)
 
-Day 23: Challenge VIII - File Manager
+Day 23: Challenge IX - File Manager
 
-Day 24: 
+Day 24: PHP-MySQL
 
-Day 25:
+Day 25: Challenge X - store and read items
 
-Day 26: 
+Day 26: Challenge XI - UPDATE and  ORDER BY 
 
-Day 27: 
+Day 27: Pchart - PHP
 
 Day 28: 
 

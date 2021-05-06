@@ -507,7 +507,7 @@
         </div>
         <hr>
         <h5 id="day24"> Day24 - Output </h5>
-        <p> <b> PHP MySQL </b></p>
+        <p> <b> PHP - MySQL </b></p>
         <div class="output">
             <?php
                 require('./day24.php');
@@ -515,10 +515,52 @@
         </div>
         <hr>
         <h5 id="day25"> Day25 - Output </h5>
-        <p> <b>Traits </b></p>
+        <p><b> Challenge X - store and read items </b></p>
         <div class="output">
             <?php
                 require('./day25.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day26"> Day26 - Output </h5>
+        <p><b> Challenge XI - </b></p>
+        <div class="output">
+            <?php
+                require('./day26.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day27"> Day27 - Output </h5>
+        <p><b> --- </b></p>
+        <div class="output">
+            <?php
+                require('./day27.php');
+            ?>
+
+        </div>
+        <hr>
+        <h5 id="day28"> Day28 - Output </h5>
+        <p><b> ---- </b></p>
+        <div class="output">
+            <?php
+                require('./day28.php');
+            ?>
+            <img src="./img_data/day27.jpg"/>
+        </div>
+        <hr>
+        <h5 id="day29"> Day29 - Output </h5>
+        <p><b> ---- </b></p>
+        <div class="output">
+            <?php
+                require('./day29.php');
+            ?>
+        </div>
+        <hr>
+        <h5 id="day30"> Day30 - Output </h5>
+        <p><b> ---- </b></p>
+        <div class="output">
+            <?php
+                require('./day30.php');
             ?>
         </div>
         <hr>
