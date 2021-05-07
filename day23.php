@@ -43,7 +43,15 @@ class FileManager{
     // show the content of the file
     function show_content(){
 
-        sin(deg2rad($i));
+        $file = fopen($this->complete_path, "r");
+
+        //read file line by line until the EOF is reached
+        while(!feof($file)) {
+            $line = fgets($file);
+            echo $line. "<br>";
+        }
+
+        fclose($file);
     }
 
     // clear your file
