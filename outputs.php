@@ -531,37 +531,47 @@
         </div>
         <hr>
         <h5 id="day27"> Day27 - Output </h5>
-        <p><b> --- </b></p>
+        <p><b>  JPGraph - PHP (linear plot) </b></p>
         <div class="output">
             <?php
                 require('./day27.php');
             ?>
-
+            <div class='w-100 text-center'>
+                 <img  src="./img_data/day27.jpg"/>
+            </div>
         </div>
         <hr>
         <h5 id="day28"> Day28 - Output </h5>
-        <p><b> ---- </b></p>
+        <p><b>  Challenge XII - JPGraph - PHP (Bar plot) </b></p>
         <div class="output">
             <?php
                 require('./day28.php');
             ?>
-            <img src="./img_data/day27.jpg"/>
+            <div class='w-100 text-center'>
+                 <img  src="./img_data/day28.jpg"/>
+            </div>
         </div>
         <hr>
         <h5 id="day29"> Day29 - Output </h5>
-        <p><b> ---- </b></p>
+        <p><b> Challenge XIII - Sinusoide </b></p>
         <div class="output">
             <?php
                 require('./day29.php');
             ?>
+            <div class='w-100 text-center'>
+                 <img  src="./img_data/day29.jpg"/>
+            </div>
         </div>
         <hr>
         <h5 id="day30"> Day30 - Output </h5>
-        <p><b> ---- </b></p>
+        <p><b> Challenge XIV - Data Processing - Read and Plot </b></p>
         <div class="output">
             <?php
                 require('./day30.php');
             ?>
+            <div class='w-100 text-center'>
+                 <img  src="./img_data/day30.jpg"/>
+            </div>
         </div>
         <hr>
 

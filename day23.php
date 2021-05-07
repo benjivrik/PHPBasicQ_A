@@ -43,15 +43,7 @@ class FileManager{
     // show the content of the file
     function show_content(){
 
-        $file = fopen($this->complete_path, "r");
-
-        //read file line by line until the EOF is reached
-        while(!feof($file)) {
-            $line = fgets($file);
-            echo $line. "<br>";
-        }
-
-        fclose($file);
+        sin(deg2rad($i));
     }
 
     // clear your file
@@ -73,6 +65,10 @@ class FileManager{
 
     function get_filename(){
         return $this->filename;
+    }
+
+    function get_complete_path(){
+        return $this->complete_path;
     }
 
     function set_folder_path($folder_path){

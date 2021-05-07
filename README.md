@@ -54,10 +54,10 @@ Day 25: Challenge X - store and read items
 
 Day 26: Challenge XI - UPDATE and  ORDER BY 
 
-Day 27: Pchart - PHP
+Day 27: JPGraph - PHP
 
-Day 28: 
+Day 28: Challenge XII - JPGraph - PHP (Bar plot)
 
-Day 29: 
+Day 29: Challenge XIII - Sinusoide
 
-Day 30: 
+Day 30: Challenge XIV - Data Processing - Read and Plot
