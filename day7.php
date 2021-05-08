@@ -81,16 +81,20 @@ echo "<br><h4><b> switch block </b></h4> ";
 // divided by 2 or 2 has been removed from it
 switch($res){
     case ($res*2)==$user_input:
-        echo "<br><span>→ The result $res was obtained using the method divide_parameter_by_two($user_input)</span><br>";
+        echo "<br><span>→ The result $res was obtained using 
+        the method divide_parameter_by_two($user_input)</span><br>";
         break;
     case ($res/2)==$user_input:
-        echo "<br><span>→ The result $res was obtained using the method double_parameter($user_input)</span><br>";
+        echo "<br><span>→ The result $res was obtained using 
+        the method double_parameter($user_input)</span><br>";
         break;
     case ($res-2)==$user_input:
-        echo "<br><span>→ The result $res was obtained using the method add_two_to_the_parameter($user_input)</span><br>";
+        echo "<br><span>→ The result $res was obtained using 
+        the method add_two_to_the_parameter($user_input)</span><br>";
         break;
     default :
-        echo "<br<span>→ The result a problem with the result ($res). It does not match the cases. </span><br>";
+        echo "<br<span>→ The result a problem with the result ($res). 
+        It does not match the cases. </span><br>";
         break;
 }
 

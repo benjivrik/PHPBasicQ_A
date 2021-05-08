@@ -523,7 +523,7 @@
         </div>
         <hr>
         <h5 id="day26"> Day26 - Output </h5>
-        <p><b> Challenge XI - </b></p>
+        <p><b> Challenge XI - UPDATE and  ORDER BY </b></p>
         <div class="output">
             <?php
                 require('./day26.php');
