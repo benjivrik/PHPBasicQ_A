@@ -141,7 +141,9 @@
                        class="ml-2 form-control" 
                        placeholder="Enter your number" 
                        id="usr-input" value="0" required>
-                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
+                <button type="submit"  
+                        class="ml-2 custom-btn btn btn-primary" 
+                        style="width: 15%;">Submit</button>
             </form>
         </div>
         <hr>
@@ -171,7 +173,9 @@
                        class="ml-2 form-control" 
                        placeholder="Enter your number" 
                        id="usr-input" value="0" required>
-                <button type="submit"  class="ml-2 custom-btn btn btn-primary" style="width: 15%;">Submit</button>
+                <button type="submit"  
+                        class="ml-2 custom-btn btn btn-primary" 
+                        style="width: 15%;">Submit</button>
             </form>
         </div>
         <hr>

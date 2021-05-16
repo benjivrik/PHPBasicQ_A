@@ -57,7 +57,7 @@ while(!feof($file)) {
     // get the appropriate data
     // index 0 : angle - index 1 : sine - index 2 : cosine
     if(count($data) == 3){
-        $angles[] = (float) $data[0];
+        $__angles[] = (float) $data[0];
         $angles_sin[] = (float) $data[1];
         $angles_cos[] = (float) $data[2];
     }
@@ -65,9 +65,11 @@ while(!feof($file)) {
 }
 
 // index
-for($index = 0; $index < count($angles); $index++){
-    $ticklabels = strval($angles[$index]);
+for($index = 0; $index < count($__angles); $index++){
+    $__ticklabels[] = strval($__angles[$index]);
 }
+
+// var_dump($__ticklabels);
 
 fclose($file);
  
@@ -100,7 +102,7 @@ if (file_exists($path)) {
 
 $x=0;
 while ($x < count($angles)){
-    $tickposition[] = $x;
+    $__tickposition[] = $x;
     $x++;
 };
 
@@ -109,13 +111,13 @@ $graph->title->Set('Sinusoide - sin(x) - cos(x)');
 // Title for X-axis
 $graph->xaxis->title->Set('Angles (deg)');
 $graph->xaxis->title->SetMargin(4);
-$graph->xaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
-$graph->xaxis->SetMajTickPositions($tickposition, $ticklabels);
+//$graph->xaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
+$graph->xaxis->SetMajTickPositions($__tickposition, $__ticklabels);
 
 // Title for Y-axis
 $graph->yaxis->title->Set('Y-axis');
 $graph->yaxis->title->SetMargin(4);
-$graph->yaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
+//$graph->yaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
 
 $graph->legend->SetFrameWeight(1);
 $graph->legend->SetColumns(6);

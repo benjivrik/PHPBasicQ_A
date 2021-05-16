@@ -9,8 +9,7 @@
 // Day 25 | IG : https://www.instagram.com/benjivrik/
 // Subject :  Challenge X - store and read items
 // ----------------------------------------------------
-//  what would be the output of this program ?
-// create a class Database for managing your database connection
+// what would be the output of this program ?
 // using the connection parameters from day24
 // create a table 'items' for storing each Item object created
 // create 5 items and store them in the created database table

@@ -15,7 +15,7 @@
 // The data in MySQL are stored in tables consisting of columns and rows
 // a database is used for storing related information categorically
 // more info : https://www.w3schools.com/php/php_mysql_intro.asp
-// For this Q&A, we work with basic SQL TABLE and maintly using the 
+// For this Q&A, we work with basic SQL tables and mainly using the 
 // operations CREATE, INSERT, READ and DELETE 
 
 // require('day20.php')

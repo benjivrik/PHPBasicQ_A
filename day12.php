@@ -5,7 +5,7 @@
 // Community website : www.stuntbusiness.com
 // 
 // 30 Days - Q&A PHP Basic
-// Day 12: PHP JSON 
+// Day 12: PHP JSON  
 // Day 12 | IG : https://www.instagram.com/benjivrik/
 // Subject :  PHP JSON 
 // ----------------------------------------------------

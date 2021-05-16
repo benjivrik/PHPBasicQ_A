@@ -23,25 +23,27 @@ echo readfile('text_data/day11_data.txt');
 // a : for appending a new content. This mode will create a file if it does not exist
 // x : creates a file for writing and return FALSE if the corresponding file already exists
 
-// echo "<br><br><h4>Reading and writing using the function fread(path, numBytes) and fwrite(file,txt) </h4><br>";
-// // attempt to open the file
-// $path = "text_data/day11_data.txt";
-// $file = fopen($path, "a+") or die("Unable to open file!");
+echo "<br><br><h4>Reading and writing using the function 
+    fread(path, numBytes) and fwrite(file,txt) </h4><br>";
+// attempt to open the file
+$path = "text_data/day11_data.txt";
+$file = fopen($path, "a+") or die("Unable to open file!");
 
-// $initial_content =  readfile('text_data/day11_data.txt');
-// //
-// echo $initial_content;
+$initial_content =  readfile('text_data/day11_data.txt');
+//
+echo $initial_content;
 
-// // append a new content "\nStunt Business\n"
-// $to_add = "\n> Stunt Business (Added) \n";
-// // 
-// fwrite($file, $to_add);
+// append a new content "\nStunt Business\n"
+$to_add = "\n> Stunt Business (Added) \n";
+// 
+fwrite($file, $to_add);
 
-// fclose($file);
+fclose($file);
 
-// echo "<br><br><h4>Reading using the function readfile(path) after adding the text </h4><br>";
-// // read the file again
-// echo readfile('text_data/day11_data.txt');
+echo "<br><br><h4>Reading using the function 
+readfile(path) after adding the text </h4><br>";
+// read the file again
+echo readfile('text_data/day11_data.txt');
 
 
 
