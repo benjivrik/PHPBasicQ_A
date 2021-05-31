@@ -48,7 +48,8 @@ class StudentI extends Human implements HumanI{
     // required methods from the interface
     function introduce()
     {
-        echo "<br><span> Hello I am ".$this->name.", and a ".$this->year_level."year student! </span><br>";
+        echo "<br><span> Hello I am ".$this->name.
+        ", and a ".$this->year_level."year student! </span><br>";
     }
 
     function dream()

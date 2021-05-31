@@ -28,7 +28,8 @@ $email_address = htmlspecialchars($email_address);
 // name validation requirement
 echo "<br><h4>Name validation requirement</h4><br>";
 echo "<span> Make sure the entered name start with an upper case letter [A-Z] </span><br>";
-echo "<br><span> Between The first letter and last number, you should expect 10 letters in upper case or lower case [a-zA-Z] </span><br>";
+echo "<br><span> Between The first letter and last number, 
+ you should expect 10 letters in upper case or lower case [a-zA-Z] </span><br>";
 echo "<br><span> Make sure the entered name  ends with a number [0-9] </span><br>";
 
 // name validation

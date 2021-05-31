@@ -25,7 +25,8 @@ require_once('jpgraph-4.3.4/src/jpgraph_bar.php');
 // creating your objects
 $item1 = new Item("Banana", "Fruit", 2.5);
 $item2 = new Item("Apple", "Fruit", 4);
-$item3 = new Item("Carrot", "Vegetables", 10,  $profile_path="./outputs_util/day21_carrot.jpg");
+$item3 = new Item("Carrot", "Vegetables", 10,  
+                   $profile_path="./outputs_util/day21_carrot.jpg");
 $item4 = new Item("Mango", "Fruit", 12);
 $item5 = new Item("Green onion", "Vegetables", 13);
 

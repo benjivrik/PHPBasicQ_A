@@ -85,7 +85,8 @@ class StudentAbs extends HumanAbs{
     // required methods from the abstract class HumanAbs
     function introduce()
     {
-        echo "<br><span> Hello I am ".$this->name.", and a ".$this->year_level."year student! </span><br>";
+        echo "<br><span> Hello I am ".$this->name.
+             ", and a ".$this->year_level." year student! </span><br>";
     }
 
     function dream()
@@ -126,7 +127,8 @@ class TeacherAbs extends HumanAbs{
     // required methods from the abstract class HumanAbs
     function introduce()
     {
-        echo "<br><span> Hello I am ".$this->name.", and I am the teacher of  the ".$this->teacher_class." class! </span><br>";
+        echo "<br><span> Hello I am ".$this->name.", 
+        and I am the teacher of  the ".$this->teacher_class." class! </span><br>";
     }
 
     function dream()

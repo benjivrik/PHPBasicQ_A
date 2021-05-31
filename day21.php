@@ -63,7 +63,8 @@ class Item{
 // items
 $item1 = new Item("Banana", "Fruit", 2.5);
 $item2 = new Item("Apple", "Fruit", 4);
-$item3 = new Item("Carrot", "Vegetables", 10,  $profile_path="./outputs_util/day21_carrot.jpg");
+$item3 = new Item("Carrot", "Vegetables", 10,  
+                   $profile_path="./outputs_util/day21_carrot.jpg");
 
 // echo $user2; // using __toString()
 
