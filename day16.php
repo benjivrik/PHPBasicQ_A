@@ -68,9 +68,6 @@ class PasswordGen{
     }
 
     // setters and getters (TO COMPLETE WHEN NEEDED)
-    function set_password_length($new_password_length){
-        $this->password_length = $new_password_length;
-    }
 
     function get_num_letter(){
         return $this->num_letter;
