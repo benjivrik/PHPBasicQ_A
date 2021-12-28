@@ -150,8 +150,8 @@ echo "<br>→ Student id : $s_id <br>";
 echo "<br>→ Student year: $s_year <br>";
 
 // using the methods introduce() and dream()
-echo $s->introduce();
-echo $s->dream();
+$s->introduce();
+$s->dream();
 
 // display the eye color
 // $s -> eye_color; // will throw an error (private)
@@ -185,8 +185,8 @@ echo "<br>→ Teacher id : $t_id <br>";
 echo "<br>→ Teacher class: $t_class <br>";
 
 // using the methods introduce() and dream()
-echo $t->introduce();
-echo $t->dream();
+$t->introduce();
+$t->dream();
 
 // display the eye color
 // $t -> eye_color; // will throw an error (private)
