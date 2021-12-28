@@ -11,7 +11,7 @@
 // ----------------------------------------------------
 //  what would be the output of this program ?
 
-// abstract a class that class that contains abstract methods
+// An abstract class is a class that contains abstract methods
 // abstract methods MUST be implemented by the derived class
 // an abstract class can not be instantiated directly
 // Using Human class implementation from Day13 and adding abstract method
@@ -27,7 +27,7 @@ abstract class HumanAbs{
         $this->name = $name;
         $this->age  = $age;
         $this->eye_color = $eye_color;
-        echo "<br><span>'Human' Object Created</span><br>";
+        echo "<br><span>'Human' Object constructor called! </span><br>";
     }
 
     // called when the script ends or stops
