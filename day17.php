@@ -30,12 +30,6 @@ abstract class HumanAbs{
         echo "<br><span>'Human' Object constructor called! </span><br>";
     }
 
-    // called when the script ends or stops
-    function __destruct()
-    {
-        echo "Human Object {$this->name} destroyed!";
-    }
-
     function get_eye_color(){
         return $this -> eye_color;
     }
