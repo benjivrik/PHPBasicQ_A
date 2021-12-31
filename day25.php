@@ -48,7 +48,7 @@ try {
   
     // create table if not exists
     $sql = "CREATE TABLE IF NOT EXISTS items (
-          id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+          id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
           item_name     VARCHAR(30) NOT NULL,
           item_price     VARCHAR(30) NOT NULL,
           item_category  VARCHAR(30) NOT NULL,
